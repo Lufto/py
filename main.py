@@ -1,3 +1,14 @@
-name = input('Введите в смя и фамилию ')
+a = int(input('Число 1 '))
+b = int(input('Число 2 '))
 
-print(f'привет {name}')
+if(b!=0):
+    print(a/b)
+    print(a//b)
+    print(a%b)    
+else:
+    print('деление не выполнилось вы ввели 0')
+
+print(a*b)
+print(a+b)
+print(a-b)
+print(a**b)
